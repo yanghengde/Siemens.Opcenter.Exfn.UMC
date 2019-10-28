@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siemens.Opcenter.Exfn.UMC", "Siemens.Opcenter.Exfn.UMC\Siemens.Opcenter.Exfn.UMC.csproj", "{72298B33-514E-4A49-952A-D5322FC2B23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siemens.Opcenter.Exfn.UMC.UnitTest", "Siemens.Opcenter.Exfn.UMC.UnitTest\Siemens.Opcenter.Exfn.UMC.UnitTest.csproj", "{4DCC4156-00A7-48DD-8C0F-1CFABF4C20EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72298B33-514E-4A49-952A-D5322FC2B23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72298B33-514E-4A49-952A-D5322FC2B23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72298B33-514E-4A49-952A-D5322FC2B23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72298B33-514E-4A49-952A-D5322FC2B23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCC4156-00A7-48DD-8C0F-1CFABF4C20EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCC4156-00A7-48DD-8C0F-1CFABF4C20EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCC4156-00A7-48DD-8C0F-1CFABF4C20EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCC4156-00A7-48DD-8C0F-1CFABF4C20EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E04173DA-95B0-42C0-8B96-B2D357697862}
+	EndGlobalSection
+EndGlobal
