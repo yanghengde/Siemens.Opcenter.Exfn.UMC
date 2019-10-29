@@ -76,18 +76,18 @@ namespace Siemens.Opcenter.Exfn.UMC.UnitTest
         public UmcUser GetTestData()
         {
             UmcUser umc = new UmcUser();
-            User u1 = new User { Name = "T-001", FullName = "T-001" };
-            User u2 = new User { Name = "T-002", FullName = "T-002" };
+            User u1 = new User { Name = "V-001", FullName = "V-001" };
+            User u2 = new User { Name = "V-002", FullName = "V-002" };
             umc.Users = new List<User>();
             umc.Users.Add(u1);
             umc.Users.Add(u2);
 
-            Role r = new Role { Name = "RDEMO-01", Description = "RDEMO-01", IsSystemRole = false };
+            Role r = new Role { Name = "VDEMO-01", Description = "VDEMO-01", IsSystemRole = false };
             umc.Roles = new List<Role>();
             umc.Roles.Add(r);
 
-            UserRole ur1 = new UserRole { RoleName = "RDEMO-01", UserName = "T-001" };
-            UserRole ur2 = new UserRole { RoleName = "RDEMO-01", UserName = "T-002" };
+            UserRole ur1 = new UserRole { RoleName = "VDEMO-01", UserName = "V-001" };
+            UserRole ur2 = new UserRole { RoleName = "VDEMO-01", UserName = "V-002" };
             umc.UserRoles = new List<UserRole>();
             umc.UserRoles.Add(ur1);
             umc.UserRoles.Add(ur2);
